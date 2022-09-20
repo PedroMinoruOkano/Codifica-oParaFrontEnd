@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "Roboto-Thin";
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+/* Reset de página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto-Regular';
+
+}
+
+.container-grid {
+    max-width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid salmon; */
+}
+
+
+/* cabeçalho */
+.header-flex {
+    /* flex conteiner */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to right, blue, black);
+    width: 1001024px;
+height: 280px;
+
+
+}
+
+.menu-de-baixo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    height: 80px;
+    width: 200%
+    
+    ;
+}
+
+
+
+header .menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 100%;
+    height: 100%;
+    background-color: #1E1C21;
+}
+
+header .menu a {
+    font-family: "Roboto-Light";
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #1E1C21;
+}
+
+/* banner */
+
+.banner {
+    width: 100%;/*  não precisaria!! */
+    height: 400px;
+    background-image: url(./imagens/banner_lol.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: blueviolet;
+}
+
+
+
+/* centraliza a informação do banner */
+.banner .banner-info-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 300px;
+}
+
+.banner .banner-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    height: 250px;
+    /* border: 1px solid white; */
+}
+
+.banner .banner-info .info-title {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner .banner-info .info-text {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+
+.banner .banner-info .info-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    border: 1px solid #ff070b;
+    background-color: #e7211a;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 250px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+/* patrocinadores */
+.patrocinados {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1E1C21;
+}
+
+.patrocinados-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: #5c5858; */
+}
+
+.produtos-flex {
+display: flex;
+background-color: #D9D9D9;
+justify-content: center;
+align-items: center;
+
+}
+
+.final-flex {
+    display: flex;
+    justify-content: center;
+    background-size: 100%;
+    background-color: #070707;
+}
