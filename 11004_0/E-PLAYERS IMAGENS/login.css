@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+a.links{
+    display: none;
+  }
+
+  
+body {font-family:"roboto-regular";}
+
+
+.container-grid {
+    max-width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid salmon; */
+}
+
+.header-flex {
+    display: flex;
+    background-size: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right,#123FDC,black);
+    width: 100%;
+    image-rendering: auto;
+   border-width: 5px;
+   border-color: white;
+   border-style: solid;
+   font-style: oblique;
+}
+
+.header-flex  p {
+
+    display: flex;
+justify-content: space-around;
+height: 100%;
+  width: 100%; 
+color: lemonchiffon;
+letter-spacing: 8px;
+font-size: 25px;
+text-shadow: 2px 2px 5px #eee; 
+align-items: center;
+
+
+}
+
+.cabecalho-login {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 22px;
+    font-style: oblique;
+    height: 500px;
+background-image:url(./imagens/banner_cs.png);
+border-width: 5px;
+border-color: white;
+border-style: solid;
+font-style: oblique;
+text-shadow: 2px 2px 5px #eee; 
+color:lemonchiffon;
+}
+
+
+.final img {
+
+display: flex;
+
+height: 100%;
+width: 100%;
+background-image: linear-gradient(to right blue, black);
+border-width: 5px;
+border-color: white;
+border-style: solid;
+
+}
