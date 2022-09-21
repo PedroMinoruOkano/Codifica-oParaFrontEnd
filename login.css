@@ -16,33 +16,32 @@ body {font-family:"roboto-regular";}
 .container-grid {
     max-width: 100%;
     margin: 0 auto;
-    /* border: 1px solid salmon; */
+    
 }
 
-/* cabeçalho */
 .header-flex {
-    /* flex conteiner */
     display: flex;
     background-size: 100%;
     height: 200px;
     background-image: linear-gradient(to right,#123FDC,black);
-    width: 1001024px;
+    width: 100%;
     image-rendering: auto;
-    
+   border-width: 5px;
+   border-color: white;
+   border-style: solid;
+   font-style: oblique;
 }
 
 .header-flex  p {
 
     display: flex;
-    color: black;
 justify-content: space-around;
 height: 100%;
-width: 1001024px;    
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-color: aliceblue;
+  width: 100%; 
+color: lemonchiffon;
 letter-spacing: 8px;
 font-size: 25px;
-
+text-shadow: 2px 2px 5px #eee; 
 align-items: center;
 
 
@@ -51,40 +50,21 @@ align-items: center;
 .cabecalho-login {
 
     display: flex;
-
-    height: 400px;
-    width: 100%;
-background-image: linear-gradient(to right, gray, black);
-
-}
-
-.cabecalho-login p {
-    display: flex;
-
-    justify-content: space-around; 
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-color: rgb(8, 9, 9);
-letter-spacing: 8px;
-font-size: 25px;
-height: 100%;
-width: 100%;
-align-items: center;
-flex-direction: column;
-
-
-
-
-}
-
-.cabecalho-login button {
-
-height: 50px;
-width: 200px;
-font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    font-size: 22px;
+    font-style: oblique;
+    height: 500px;
+background-image:url(./imagens/banner_cs.png);
+border-width: 5px;
+border-color: white;
+border-style: solid;
 font-style: oblique;
-
+text-shadow: 2px 2px 5px #eee; 
+color:lemonchiffon;
 }
+
 
 .final img {
 
@@ -93,6 +73,8 @@ display: flex;
 height: 100%;
 width: 100%;
 background-image: linear-gradient(to right blue, black);
-
+border-width: 5px;
+border-color: white;
+border-style: solid;
 
 }
